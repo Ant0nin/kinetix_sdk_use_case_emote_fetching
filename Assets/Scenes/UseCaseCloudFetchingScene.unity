@@ -1130,7 +1130,7 @@ MonoBehaviour:
   DefaultVerticalAngle: 20
   MinVerticalAngle: -90
   MaxVerticalAngle: 90
-  RotationSpeed: 1
+  RotationSpeed: 1.3
   RotationSharpness: 10000
   RotateWithPhysicsMover: 0
   ObstructionCheckRadius: 0.2
@@ -1414,7 +1414,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh50474
+  m_Name: pb_Mesh72832
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -2870,6 +2870,14 @@ PrefabInstance:
     - target: {fileID: 8597770756607668287, guid: f2bfedfc5c5fb124798e9fc900d24e3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8931829744823471150, guid: f2bfedfc5c5fb124798e9fc900d24e3d, type: 3}
+      propertyPath: OrientationMethod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8931829744823471150, guid: f2bfedfc5c5fb124798e9fc900d24e3d, type: 3}
+      propertyPath: OrientationSharpness
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
