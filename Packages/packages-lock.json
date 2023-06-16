@@ -1,5 +1,33 @@
 {
   "dependencies": {
+    "com.kinetix.coreweb2": {
+      "version": "https://github.com/git-kinetix/kinetix-unity-sdk-coreweb2.git#v0.7.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "5e9d21a269abb764c70ac01489c68485d4d04e81"
+    },
+    "com.kinetix.packagemanager": {
+      "version": "https://github.com/git-kinetix/kinetix-unity-sdk-packagemanager.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "8198da58e615966b0fac9402d1b6950282b21b92"
+    },
+    "com.kinetix.uicommon": {
+      "version": "https://github.com/git-kinetix/kinetix-unity-sdk-uicommon.git#v0.7.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "1bd597421d6dee4e1faa28a1eaf18d2b2acece1e"
+    },
+    "com.kinetix.uiemotewheel": {
+      "version": "https://github.com/git-kinetix/kinetix-unity-sdk-uiemotewheel.git#v0.7.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "cb024ea09353b4d6ef066b05aaf43f2e7c8b39e1"
+    },
     "com.unity.collab-proxy": {
       "version": "2.0.4",
       "depth": 0,
@@ -56,6 +84,22 @@
     "com.unity.ide.vscode": {
       "version": "1.2.5",
       "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.inputsystem": {
+      "version": "1.6.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.1",
+      "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
