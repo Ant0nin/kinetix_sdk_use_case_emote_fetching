@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\12- NoClip state\Scripts\MyPlayer.cs" />
     <Compile Include="Assets\KinematicCharacterController\Core\ICharacterController.cs" />
+    <Compile Include="Assets\Samples\Kinetix UI Emote Wheel\0.7.0\Emote Wheel Samples\5-Translations\BasicTranslation.cs" />
     <Compile Include="Assets\KinematicCharacterController\Core\PhysicsMover.cs" />
     <Compile Include="Assets\KinematicCharacterController\Examples\Scripts\FrameratePanel.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\10- Multiple movement states setup\Scripts\MyCharacterController.cs" />
@@ -86,6 +87,7 @@
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\13- Swimming state\Scripts\MyPlayer.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\4- Landing and leaving ground\Scripts\MyCharacterController.cs" />
     <Compile Include="Assets\Scripts\EmoteShopArea.cs" />
+    <Compile Include="Assets\Samples\Kinetix UI Emote Wheel\0.7.0\Emote Wheel Samples\6-Theme\ThemeMain.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\a- Simple Jumping\MyCharacterController.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\2- Basic Movement and Gravity\Scripts\MyPlayer.cs" />
     <Compile Include="Assets\KinematicCharacterController\Core\ReadOnlyAttribute.cs" />
@@ -97,9 +99,14 @@
     <Compile Include="Assets\KinematicCharacterController\Core\KCCSettings.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\8- Creating a moving platform\Scripts\MyPlayer.cs" />
     <Compile Include="Assets\KinematicCharacterController\Core\IMoverController.cs" />
+    <Compile Include="Assets\Samples\Kinetix UI Emote Wheel\0.7.0\Emote Wheel Samples\3-LegacyDemo\LegacyMain.cs" />
     <Compile Include="Assets\KinematicCharacterController\Examples\Scripts\ExampleAIController.cs" />
+    <Compile Include="Assets\Samples\Kinetix UI Emote Wheel\0.7.0\Emote Wheel Samples\7-InputManager\CustomInputManagerMain.cs" />
+    <Compile Include="Assets\Samples\Kinetix UI Emote Wheel\0.7.0\Emote Wheel Samples\1-BasicDemo\BasicMain.cs" />
+    <Compile Include="Assets\Samples\Kinetix UI Emote Wheel\0.7.0\Emote Wheel Samples\4-AnimationQueueDemo\AnimationQueueMain.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\7- Orienting towards arbitrary up direction\Scripts\MyCharacterController.cs" />
     <Compile Include="Assets\Scripts\EmoteData.cs" />
+    <Compile Include="Assets\Samples\Kinetix UI Emote Wheel\0.7.0\Emote Wheel Samples\Common\ButtonShowEmoteWheel.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\b- Double Jumping\MyCharacterController.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\10- Multiple movement states setup\Scripts\MyPlayer.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\11- Charging state\Scripts\MyPlayer.cs" />
@@ -116,6 +123,7 @@
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\14- Climbing Ladders\Scripts\MyLadder.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\13- Swimming state\Scripts\MyCharacterController.cs" />
     <Compile Include="Assets\KinematicCharacterController\ExampleCharacter\Scripts\ExamplePlayer.cs" />
+    <Compile Include="Assets\Samples\Kinetix UI Emote Wheel\0.7.0\Emote Wheel Samples\2-EventDemo\EventMain.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\1- Player Camera Character Setup\Scripts\MyCharacterController.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\11- Charging state\Scripts\MyCharacterController.cs" />
     <Compile Include="Assets\KinematicCharacterController\Core\KinematicCharacterSystem.cs" />

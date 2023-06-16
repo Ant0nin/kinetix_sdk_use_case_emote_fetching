@@ -11,24 +11,21 @@ using Kinetix.UI.EmoteWheel;
 
 namespace Kinetix.Sample
 {
-    public class KinetixInitScript : MonoBehaviour
+    public class BasicTranslation : MonoBehaviour
     {
-        [SerializeField] private string _virtualWorldKey;
-        [SerializeField] public string _userId;
-        [SerializeField] private Animator _localPlayerAnimator;
+        [SerializeField] private string virtualWorldKey;
+        [SerializeField] private Animator               localPlayerAnimator;
 
         private void Awake()
         {
             KinetixCore.OnInitialized += OnKinetixInitialized;
             KinetixCore.Initialize(new KinetixCoreConfiguration()
             {
-                VirtualWorldKey = _virtualWorldKey,
+                VirtualWorldKey = virtualWorldKey,
                 PlayAutomaticallyAnimationOnAnimators = true,
-                ShowLogs                              = true,
-                EnableAnalytics                       = true
+                ShowLogs = true,
+                EnableAnalytics = true
             });
-
-            KinetixCore.Account.ConnectAccount(_userId);
         }
 
         private void OnDestroy()
@@ -38,8 +35,8 @@ namespace Kinetix.Sample
 
         private void OnKinetixInitialized()
         {
-            KinetixUIEmoteWheel.Initialize(new KinetixUIEmoteWheelConfiguration()
-            {
+            KinetixUIEmoteWheel.Initialize(new KinetixUIEmoteWheelConfiguration() {
+                baseLanguage = SystemLanguage.English,
                 enabledCategories = new []
                 {
                     EKinetixUICategory.INVENTORY,
@@ -47,11 +44,11 @@ namespace Kinetix.Sample
                 }
             });
 
-            KinetixCore.Animation.RegisterLocalPlayerAnimator(_localPlayerAnimator);
-
+            KinetixCore.Animation.RegisterLocalPlayerAnimator(localPlayerAnimator);
+            
             KinetixCore.Account.ConnectAccount("sdk-sample-user-id", OnAccountConnected);
         }
-
+        
         private void OnAccountConnected()
         {
             KinetixCore.Account.AssociateEmotesToUser("d228a057-6409-4560-afd0-19c804b30b84");
