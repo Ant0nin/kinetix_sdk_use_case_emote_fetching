@@ -7,6 +7,11 @@ using Newtonsoft.Json.Linq;
 // singleton
 public sealed class KinetixRestApiClient
 {
+    public readonly string apiKey = "22f89ac029e3436d2d30aa34f3d544e7";
+
+    private string _baseUri = "https://sdk-api.kinetix.tech/v1/emotes/";
+    private HttpClient _httpClient;
+
     private static readonly Lazy<KinetixRestApiClient> lazy = new(() => new KinetixRestApiClient());
     public static KinetixRestApiClient Instance
     {
@@ -16,9 +21,6 @@ public sealed class KinetixRestApiClient
         }
     }
 
-    private string _baseUri = "https://sdk-api.kinetix.tech/v1/emotes/";
-    private string _apiKey = "22f89ac029e3436d2d30aa34f3d544e7";
-    private HttpClient _httpClient;
 
     private KinetixRestApiClient()
     {
@@ -26,10 +28,9 @@ public sealed class KinetixRestApiClient
         {
             BaseAddress = new Uri(_baseUri)
         };
-        //_httpClient.DefaultRequestHeaders.Accept.Clear();
         _httpClient.DefaultRequestHeaders.Accept.Add(
             new MediaTypeWithQualityHeaderValue("application/json"));
-        _httpClient.DefaultRequestHeaders.Add("x-api-key", _apiKey);
+        _httpClient.DefaultRequestHeaders.Add("x-api-key", apiKey);
     }
 
     public async Task<JObject> GetEmoteAsync(string uuid)

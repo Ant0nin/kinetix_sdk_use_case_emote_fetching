@@ -55,7 +55,7 @@ public class BuyableEmoteUiElement : MonoBehaviour
             }
         }
 
-        if((_textureRequest != null) && !emoteTextureLoaded && _textureRequest.isDone)
+        if(!emoteTextureLoaded && (_textureRequest != null) && _textureRequest.isDone)
         {
             Texture2D texture = ((DownloadHandlerTexture)_textureRequest.downloadHandler).texture;
             Sprite sprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), new Vector2());

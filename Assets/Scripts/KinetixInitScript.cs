@@ -13,7 +13,7 @@ namespace Kinetix.Sample
 {
     public class KinetixInitScript : MonoBehaviour
     {
-        [SerializeField] private string _virtualWorldKey;
+        //[SerializeField] private string _virtualWorldKey;
         [SerializeField] private Animator _localPlayerAnimator;
 
         private void Awake()
@@ -21,7 +21,7 @@ namespace Kinetix.Sample
             KinetixCore.OnInitialized += OnKinetixInitialized;
             KinetixCore.Initialize(new KinetixCoreConfiguration()
             {
-                VirtualWorldKey = _virtualWorldKey,
+                VirtualWorldKey = KinetixRestApiClient.Instance.apiKey,
                 PlayAutomaticallyAnimationOnAnimators = true,
                 ShowLogs                              = true,
                 EnableAnalytics                       = true
