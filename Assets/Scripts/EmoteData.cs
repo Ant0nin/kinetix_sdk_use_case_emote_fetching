@@ -6,6 +6,5 @@ using UnityEngine;
 public class EmoteData : ScriptableObject
 {
     public string uuid;
-    public string label;
     public int cost;
 }

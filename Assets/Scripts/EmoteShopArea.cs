@@ -28,33 +28,6 @@ public class EmoteShopArea : MonoBehaviour
         return _emoteShopUi.activeSelf;
     }
 
-    void Update()
-    {
-        //if(_bPlayerInArea)
-        //{
-        //    if(_emoteShopUi.activeSelf) 
-        //    {
-        //        if(Input.GetKey(KeyCode.Escape)) {
-        //            OpenShopUi();
-        //            _txtPressKey.enabled = true;
-        //        }
-        //    }
-        //    else {
-        //        if(Input.GetKey(KeyCode.E)) {
-        //            CloseShopUi();
-        //            _txtPressKey.enabled = false;
-        //        }
-        //    }
-        //}
-        //else // player not in area
-        //{
-        //    if(_emoteShopUi.activeSelf) {
-        //        _emoteShopUi.SetActive(false);
-        //        _txtPressKey.enabled = false;
-        //    }
-        //}
-    }
-
     private void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Player") {

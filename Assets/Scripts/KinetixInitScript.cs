@@ -14,7 +14,6 @@ namespace Kinetix.Sample
     public class KinetixInitScript : MonoBehaviour
     {
         [SerializeField] private string _virtualWorldKey;
-        [SerializeField] public string _userId;
         [SerializeField] private Animator _localPlayerAnimator;
 
         private void Awake()
@@ -27,13 +26,13 @@ namespace Kinetix.Sample
                 ShowLogs                              = true,
                 EnableAnalytics                       = true
             });
-
-            KinetixCore.Account.ConnectAccount(_userId);
         }
 
         private void OnDestroy()
         {
             KinetixCore.OnInitialized -= OnKinetixInitialized;
+
+            //KinetixCore.Account.DisconnectAccount();
         }
 
         private void OnKinetixInitialized()

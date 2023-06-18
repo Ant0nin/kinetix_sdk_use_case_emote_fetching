@@ -176,7 +176,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh50460
+  m_Name: pb_Mesh25542
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -1414,7 +1414,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh72832
+  m_Name: pb_Mesh25558
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -2874,6 +2874,10 @@ PrefabInstance:
     - target: {fileID: 8931829744823471150, guid: f2bfedfc5c5fb124798e9fc900d24e3d, type: 3}
       propertyPath: OrientationMethod
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8931829744823471150, guid: f2bfedfc5c5fb124798e9fc900d24e3d, type: 3}
+      propertyPath: AirAccelerationSpeed
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 8931829744823471150, guid: f2bfedfc5c5fb124798e9fc900d24e3d, type: 3}
       propertyPath: OrientationSharpness
