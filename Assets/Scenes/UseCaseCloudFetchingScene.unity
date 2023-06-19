@@ -228,11 +228,14 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'This demo showcases the emote cloud fetching feature.
 
-    - Move closer
-    to the NPC merchant and press E to shop emotes
+    - Move with
+    W, A, S, D keys (or arrows) and mouse
 
-    - Press Tab/Escape to open/close
-    the emote wheel'
+    - Move closer to the NPC merchant
+    and press E to shop (emotes)
+
+    - Press Tab/Escape to open/close the emote
+    wheel'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -880,7 +883,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &217608869
 RectTransform:
