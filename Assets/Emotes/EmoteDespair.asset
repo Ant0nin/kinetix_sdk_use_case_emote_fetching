@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: EmoteDespair
   m_EditorClassIdentifier: 
   uuid: 8873b14b-7732-46f8-a934-90e45594a7bc
-  label: Despair
-  cost: 5
+  price: 5

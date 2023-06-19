@@ -13,6 +13,4 @@ MonoBehaviour:
   m_Name: EmoteEagerDance
   m_EditorClassIdentifier: 
   uuid: 07104549-ccf2-4dea-b99a-991d5d123a5e
-  cost: 20
-  emoteName: 
-  pngImageUrl: 
+  price: 15

@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: EmoteCrossingArms
   m_EditorClassIdentifier: 
   uuid: d85cee1c-30c6-466c-90bc-0b82cde1e1bc
-  label: Crossing arms
-  cost: 10
+  price: 10

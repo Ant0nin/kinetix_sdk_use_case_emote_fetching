@@ -12,7 +12,7 @@ using System;
 
 public class BuyableEmoteUiElement : MonoBehaviour
 {
-    public EmoteData _emoteData; // contains UUID + cost
+    public EmoteData _emoteData; // contains UUID + price
     private string _emoteName = null;
     private string _emotePngImageUrl = null;
     private bool emoteTextureLoaded = false;
@@ -33,7 +33,7 @@ public class BuyableEmoteUiElement : MonoBehaviour
         Assert.IsNotNull(_txtEmoteLabel);
         Assert.IsNotNull(_txtEmoteCost);
 
-        _txtEmoteCost.SetText(_emoteData.cost.ToString()+" $");
+        _txtEmoteCost.SetText(_emoteData.price.ToString()+" $");
 
         Task.Run(FetchAndDisplayEmoteDataAsync);
     }

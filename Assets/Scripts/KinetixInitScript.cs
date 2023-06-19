@@ -13,8 +13,9 @@ namespace Kinetix.Sample
 {
     public class KinetixInitScript : MonoBehaviour
     {
-        //[SerializeField] private string _virtualWorldKey;
+        //[SerializeField] private string _virtualWorldKey; // key is provided in singleton class KinetixRestApiClient
         [SerializeField] private Animator _localPlayerAnimator;
+        public string _userId = "Ant0nin";
 
         private void Awake()
         {
@@ -48,7 +49,8 @@ namespace Kinetix.Sample
 
             KinetixCore.Animation.RegisterLocalPlayerAnimator(_localPlayerAnimator);
 
-            KinetixCore.Account.ConnectAccount("sdk-sample-user-id", OnAccountConnected);
+            //KinetixCore.Account.ConnectAccount("sdk-sample-user-id", OnAccountConnected);
+            KinetixCore.Account.ConnectAccount(_userId, OnAccountConnected);
         }
 
         private void OnAccountConnected()
