@@ -168,6 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _localPlayerAnimator: {fileID: 1171839831}
+  _userId: Ant0nin
 --- !u!1 &40170613
 GameObject:
   m_ObjectHideFlags: 0
@@ -237,8 +238,8 @@ MonoBehaviour:
     - Press Tab/Escape to open/close the emote
     wheel'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e695b70bbddd12b49950b6c56a1ae68e, type: 2}
+  m_sharedMaterial: {fileID: -5590224780256404769, guid: e695b70bbddd12b49950b6c56a1ae68e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -318,7 +319,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh25542
+  m_Name: pb_Mesh41512
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -1433,8 +1434,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Shop
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2fb19ddfb361cb647886352e1fc7dd5f, type: 2}
+  m_sharedMaterial: {fileID: 186454873326153702, guid: 2fb19ddfb361cb647886352e1fc7dd5f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1523,7 +1524,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  - {fileID: 186454873326153702, guid: 2fb19ddfb361cb647886352e1fc7dd5f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1556,7 +1557,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh25558
+  m_Name: pb_Mesh41598
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -2001,8 +2002,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Press E to shop
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e695b70bbddd12b49950b6c56a1ae68e, type: 2}
+  m_sharedMaterial: {fileID: -5590224780256404769, guid: e695b70bbddd12b49950b6c56a1ae68e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

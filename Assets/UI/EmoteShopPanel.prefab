@@ -559,6 +559,30 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6669759787542288757, guid: c19f7006da2062d4e9dac4719e09f13f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: e695b70bbddd12b49950b6c56a1ae68e, type: 2}
+    - target: {fileID: 6669759787542288757, guid: c19f7006da2062d4e9dac4719e09f13f, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -5590224780256404769, guid: e695b70bbddd12b49950b6c56a1ae68e, type: 2}
+    - target: {fileID: 6669759787542288757, guid: c19f7006da2062d4e9dac4719e09f13f, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747525088261255029, guid: c19f7006da2062d4e9dac4719e09f13f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: e695b70bbddd12b49950b6c56a1ae68e, type: 2}
+    - target: {fileID: 6747525088261255029, guid: c19f7006da2062d4e9dac4719e09f13f, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -5590224780256404769, guid: e695b70bbddd12b49950b6c56a1ae68e, type: 2}
+    - target: {fileID: 6747525088261255029, guid: c19f7006da2062d4e9dac4719e09f13f, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7013215855130483022, guid: c19f7006da2062d4e9dac4719e09f13f, type: 3}
       propertyPath: m_Name
       value: BuyableEmote
